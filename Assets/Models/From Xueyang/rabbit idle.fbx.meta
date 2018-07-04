@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 257a07d3672b24f4fb97a10d5c9397e5
+timeCreated: 1523633006
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Basic
+    100002: ear_1.L
+    100004: ear_1.R
+    100006: ear_2.L
+    100008: ear_2.L_end
+    100010: ear_2.R
+    100012: ear_2.R_end
+    100014: fingers.L
+    100016: fingers.L_end
+    100018: fingers.R
+    100020: fingers.R_end
+    100022: foot_back.L
+    100024: foot_back.R
+    100026: foot_front.L
+    100028: foot_front.L_end
+    100030: foot_front.R
+    100032: foot_front.R_end
+    100034: head
+    100036: helper_back.L
+    100038: helper_back.L_end
+    100040: helper_back.R
+    100042: helper_back.R_end
+    100044: helper_front.L
+    100046: helper_front.L_end
+    100048: helper_front.R
+    100050: helper_front.R_end
+    100052: leg_back_1.L
+    100054: leg_back_1.R
+    100056: leg_back_2.L
+    100058: leg_back_2.L_end
+    100060: leg_back_2.R
+    100062: leg_back_2.R_end
+    100064: leg_front_1.L
+    100066: leg_front_1.R
+    100068: leg_front_2.L
+    100070: leg_front_2.L_end
+    100072: leg_front_2.R
+    100074: leg_front_2.R_end
+    100076: mouth
+    100078: mouth_end
+    100080: neck
+    100082: //RootNode
+    100084: spine_1
+    100086: spine_2
+    100088: spine_3
+    100090: spine_4
+    100092: tail
+    100094: tail_end
+    100096: tongle_front.L
+    100098: tongle_front.R
+    400000: Basic
+    400002: ear_1.L
+    400004: ear_1.R
+    400006: ear_2.L
+    400008: ear_2.L_end
+    400010: ear_2.R
+    400012: ear_2.R_end
+    400014: fingers.L
+    400016: fingers.L_end
+    400018: fingers.R
+    400020: fingers.R_end
+    400022: foot_back.L
+    400024: foot_back.R
+    400026: foot_front.L
+    400028: foot_front.L_end
+    400030: foot_front.R
+    400032: foot_front.R_end
+    400034: head
+    400036: helper_back.L
+    400038: helper_back.L_end
+    400040: helper_back.R
+    400042: helper_back.R_end
+    400044: helper_front.L
+    400046: helper_front.L_end
+    400048: helper_front.R
+    400050: helper_front.R_end
+    400052: leg_back_1.L
+    400054: leg_back_1.R
+    400056: leg_back_2.L
+    400058: leg_back_2.L_end
+    400060: leg_back_2.R
+    400062: leg_back_2.R_end
+    400064: leg_front_1.L
+    400066: leg_front_1.R
+    400068: leg_front_2.L
+    400070: leg_front_2.L_end
+    400072: leg_front_2.R
+    400074: leg_front_2.R_end
+    400076: mouth
+    400078: mouth_end
+    400080: neck
+    400082: //RootNode
+    400084: spine_1
+    400086: spine_2
+    400088: spine_3
+    400090: spine_4
+    400092: tail
+    400094: tail_end
+    400096: tongle_front.L
+    400098: tongle_front.R
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

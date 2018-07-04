@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<translation language="en">
+    
+    <choices>
+        <introChoice>
+            <choice responseKey="introResponse1">Why me?</choice>
+            <choice responseKey="introResponse2">All right, I'm in!</choice>
+        </introChoice>
+        
+        <fawnFirstChoice>
+            <choice responseKey="fawnTwinkle">Hey, I said your mom and dad are looking for you...</choice>
+            <choice responseKey="fawnFireflies">Can you tell me more about fireflies?</choice>
+        </fawnFirstChoice>
+
+        <fawnSecondChoice>
+            <choice responseKey="fawnGoHome">Wow, that’s really amazing. Can you tell me something else about them?</choice>
+            <choice responseKey="fawnTwinkle">OK, that’s enough, let’s go back to your parents.</choice>
+        </fawnSecondChoice>
+        
+        <mooseChoice>
+            <choice responseKey="mooseNoReaction">Do you want to be friends?</choice>
+            <choice responseKey="mooseAction">(Maybe we don't have to talk to be friends.)</choice>
+        </mooseChoice>
+    </choices>
+    <dialogues>
+        
+        <wolfStop>
+            <line character="wolf">Hey Fox! Come here. (Press spacebar to continue...)</line>
+        </wolfStop>
+        
+        <wolfIntro>
+            <line character="fox">Hey Peter. (Press |b|spacebar|/b| to continue...)</line>
+            <line character="wolf">Hello, Fox. Stay here, for the owl approaches. (Press spacebar to continue...)</line>
+        </wolfIntro>
+
+        <wolfIntroTouch>
+            <line character="fox">Hey Peter. (|b|Tap anywhere|/b| to continue...)</line>
+            <line character="wolf">Hello, Fox. Stay here, for the owl approaches. (Tap anywhere to continue...)</line>
+        </wolfIntroTouch>
+        
+        <wolfWon>
+            <line character="wolf">I wonder if the beavers will ever come back...</line>
+            <line character="fox">It’s good to know we can build a dam without them.</line>
+        </wolfWon>
+    
+        <intro choiceKey="introChoice">
+            <line character="owl">Good evening, Fox.</line>
+            <line character="fox">Hey Isaac.</line>
+            <line character="fox">Why does everyone always call me “Fox?” You know my name is PLAYER_NAME.</line>
+            <line character="owl">Fox, the water levels are rising and a massive flood is coming.</line>
+            <line character="wolf">Our only hope is to |b|build a very large dam|/b| to stop the flood.</line>
+            <line character="fox">OK. Why can’t the beavers build it?</line>
+            <line character="wolf">...They’ve gone missing. Nobody has seen them for days.</line>
+            <line character="owl">We don’t have much time. Without the beavers, we’ll need |b|all the animals|/b| in our forest to work |b|together|/b| to build a dam of this size.</line>
+            <line character="wolf">And we need |i|you|/i| to get them all to help.</line>
+        </intro>
+        
+        <introResponse1>
+            <line character="owl">I am old and weak and nearly died just flying here to you.</line>
+            <line character="wolf">And they are afraid of me, even though I am quite tame and enjoy nothing more than tending my herb garden.</line>
+            <line character="owl">One more thing, Fox. Like us, you are a nocturnal animal and are |b|most comfortable at night|/b|.</line>
+            <line character="wolf">But you will need to |b|go out in the daytime|/b| to talk to some animals.</line>
+            <line character="owl"> If you find yourself overwhelmed, it's OK to howl if you're feeling frustrated. You’ll feel better.</line>
+            <line character="wolf">You may find it difficult, but don’t give up.</line>
+            <line character="owl and Wolf">Good luck!</line>
+        </introResponse1>
+        
+        <introResponse2>
+            <line character="wolf">We appreciate your can-do attitude.</line>
+            <line character="owl">One more thing, Fox. Like us, you are a nocturnal animal and are |b|most comfortable at night|/b|.</line>
+            <line character="wolf">But you will need to |b|go out in the daytime|/b| to talk to some animals.</line>
+            <line character="owl"> If you find yourself overwhelmed, it's OK to howl if you're feeling frustrated. You’ll feel better.</line>
+            <line character="wolf">You may find it difficult, but don’t give up.</line>
+            <line character="owl and Wolf">Good luck!</line>
+        </introResponse2>
+        
+        <wolfRepetition>
+            <line character="wolf">Try to gather all the animals. Don't give up</line>
+        </wolfRepetition>
+        
+        <wolfNight>
+            <line character="wolf">I’m sure there are some more animals that can help us. Try looking around the forest for them. Don't give up!</line>
+        </wolfNight>
+        
+        <wolfDayBear>
+            <line character="wolf">Have you found the bear? She’s usually near the big red tree.</line>
+        </wolfDayBear>
+        
+        <wolfDayBoar>
+            <line character="wolf">The boar could help us with the dam. He’s usually near the pond across the river.</line>    
+        </wolfDayBoar>
+
+        <wolfDayBoar>
+            <line character="wolf">Congratulations! You gathered all the animals.</line>
+        </wolfDayBoar>
+        
+        <wolfCongrats>
+            <line character="wolf">You have already met all the animals! Feel free to explore.</line>    
+        </wolfCongrats>
+        
+        <owlEnd>
+            <line character="owl">Good job, Fox! With all of the animals working together, the dam should be built in no time!</line>
+            <line character="owl">(This is the end of the game. You can wander around now.)</line>
+        </owlEnd>
+
+        <owlFirstNight>
+            <line character="owl">How was it being out in the daytime, Fox?</line>
+            <line character="fox">You were right—it wasn’t easy. The sun was very bright and the sounds were really loud...</line>
+            <line character="fox">...but it got better when I howled.</line>
+            <line character="owl">I’m glad to hear it. It would be hard for me too if I were out in the daytime.</line>
+            <line character="fox">It’s much easier at night.</line>
+            <line character="owl">For you, yes, but not for the daytime animals.</line>
+            <line character="owl">If they had to find their way through the forest at night, I bet you’d be the perfect guide to help them get around!</line>
+            <line character="fox">Thanks, Isaac. I guess everyone is good at different things, right?</line>
+            <line character="owl">I think that’s very wise. And I should know.</line>
+        </owlFirstNight>
+
+        <bearIntro>
+            <line character="fox">Hi, Charlene! Long time no see. </line>
+            <line character="fox">Would you be willing to help build a dam to save our forest?</line>
+            <line character="bear">|i|fgkhjshdg gsfdijg|/i| |icon#bear_sad#icon| |i|ljfghjggfldkjg |/i| |icon#honey#icon|</line>
+        </bearIntro>
+        
+        <bearHungry>
+            <line character="bear">i|fgkhjshdg gsfdijg|/i| |icon#bear_sad#icon| |i|ljfghjggfldkjg |/i| |icon#honey#icon|</line>
+        </bearHungry>
+        
+        <bearEnd>
+            <line character="fox">So, Charlene...</line>
+            <line character="bear">|i|gfhfdhsrgrgdg|/i| |icon#bear_happy#icon|</line>
+            <line character="fox">I’m glad you’re happy now! So about helping with that dam...</line>
+            <line character="bear">|icon#thumb_up#icon|</line>
+        </bearEnd>
+        
+        <bearThanks>
+            <line character="bear">|icon#bear_happy#icon| |icon#honey#icon| |icon#thumb_up#icon| |icon#hammer#icon| |icon#dam#icon|</line>
+            <line character="fox">My pleasure. And I'm glad to see you're working on the dam!</line>
+        </bearThanks>
+        
+        <bearThanks1>
+            <line character="bear">|i|ljfghjggfldkjg |/i| |icon#bear_happy#icon| </line>
+        </bearThanks1>
+
+        <bearThanks2>
+            <line character="bear">A third honey?! I love you Fox.</line>
+        </bearThanks2>
+
+        <bearThanks3>
+            <line character="bear">Thank you Fox. But I'm afraid of diabetes...</line>
+        </bearThanks3>
+        
+        <bearDam>
+            <line character="bear">|icon#bear_happy#icon| |icon#thumb_up#icon| |icon#hammer#icon| |icon#dam#icon|</line>
+            <line character="fox">You're working on the dam? Great!</line>
+        </bearDam>
+        
+        <bearWon>
+            <line character="bear">|icon#honey#icon| |icon#thumb_up#icon|</line>
+            <line character="fox">Yeah, honey is pretty great, isn’t it?</line>
+        </bearWon>
+        
+        <stagIntro>
+            <line character="doe">Thank goodness you’re here, Fox!</line>
+            <line character="fox">What’s wrong, Carol?</line>
+            <line character="doe">Our little fawn has gone missing!</line>
+            <line character="stag">She was with us when we woke up at dusk, but she took off running at sunset.</line>
+            <line character="doe">We chased after her, but we couldn’t find her anywhere. Can you help us find her?</line>
+            <line character="stag">We want to stay here in case she finds her way home on her own.</line>
+            <line character="fox">Sure, I can look for her. What direction was she running in?</line>
+            <line character="doe">Thank you, Fox. It was |b|towards the river|/b|, but I’m not sure why she’d want to go there. She doesn’t like the water very much.</line>
+            <line character="stag">Thanks for looking for her, Fox. We’ll be right here if you find her.</line>
+        </stagIntro>
+
+        <stagIntroRepetition>
+            <line character="Stag and Doe">Please help us find our little fawn.</line>
+        </stagIntroRepetition>
+        
+        <stagThanks>
+            <line character="doe">Thank you so much for finding our baby!</line>
+            <line character="stag">You’re an amazing friend, Fox!</line>
+            <line character="fox">It was no trouble, really. By the way, have you heard that we’re building a dam?</line>
+            <line character="doe">Yes, we saw someone working on it. We want to help too. You can count on us!</line>
+        </stagThanks>
+
+        <stagThanksRepetition>
+            <line character="Stag and Doe">We're working on the dam now.</line>
+            <line character="fox">Great!</line>
+        </stagThanksRepetition>
+        
+        <stagWon>
+            <line character="fawn">Have I ever told you that I love fireflies?</line>
+            <line character="fox">You may have mentioned it once or twice.</line>
+            <line character="fawn">OK!</line>
+        </stagWon>
+        
+        <fawnIntro1 choiceKey="fawnFirstChoice">
+            <line character="fox">Hi there.</line>
+            <line character="fawn">They’re so pretty!</line>
+            <line character="fox">My name’s PLAYER_NAME, but everybody calls me “Fox” for some reason. What’s yours?</line>
+            <line character="fawn">Oh, look at how bright their lights are!</line>
+            <line character="fox">Are you listening to me?</line>
+            <line character="fawn">Light on...light off. Light on...light off.</line>
+            <line character="fox">Your mom and dad are looking for you.</line>
+            <line character="fawn">Twinkle, twinkle...</line>
+        </fawnIntro1>
+
+        <fawnIntro2 choiceKey="fawnFirstChoice">
+            <line character="fox">Hi again, it’s PLAYER_NAME. Do you want to go home now?</line>
+            <line character="fawn">Twinkle, twinkle...</line>
+        </fawnIntro2>
+
+        <fawnIntro3 choiceKey="fawnFirstChoice">
+            <line character="fox">Hello? Little fawn? Can you hear me?</line>
+            <line character="fawn">Light on... light off...</line>
+        </fawnIntro3>
+
+        <fawnTwinkle>
+            <line character="fawn">Twinkle, twinkle...</line>
+        </fawnTwinkle>
+        
+        <fawnFireflies choiceKey="fawnSecondChoice">
+            <line character="fawn">Sure! I love fireflies! Did you know that fireflies “talk” to each other using their light signals?</line>
+        </fawnFireflies>
+        
+        <fawnGoHome>
+            <line character="fawn">OK! Fireflies are neither flies nor bugs. They’re beetles. Isn’t that neat?</line>
+            <line character="fawn">OK, I’m ready to go home now. |b|Follow me!|/b|</line>
+        </fawnGoHome>
+        
+        <boarIntro>
+            <line character="fox">Hey, Elvis, could I get your help with this dam we’re -</line>
+            <line character="fox">Oh no! You’re hurt! How can I help?</line>
+            <!--(The BOAR communicates through symbols that it needs berries, honey, and wheatgrass.)-->
+            <line character="boar">|i|fsgldsjfhdsj|/i||icon#wheatgrass#icon| , |icon#honey#icon| |i|kfdshgfd|/i| |icon#berry#icon|</line>
+            <line character="fox">OK, I’ll bring you those things right away!</line>
+        </boarIntro>
+        
+        <boarEnd1>
+            <line character="boar">|icon#thumb_up#icon|</line>
+        </boarEnd1>
+        
+        <boarEnd2>
+            <line character="fox">I’m glad you’re feeling better, Elvis! We could really use your help building this dam...</line>
+            <line character="boar">|icon#boar_happy#icon| |icon#thumb_up#icon| |icon#hammer#icon| |icon#dam#icon|</line>
+        </boarEnd2>
+                
+        <boarWork>
+            <line character="boar">|icon#thumb_up#icon| |icon#hammer#icon| |icon#dam#icon|</line>
+            <line character="fox">You're working on the dam? Great!</line>
+        </boarWork>
+
+        <boarWon>
+            <line character="boar">|icon#boar_happy#icon| |icon#wheatgrass#icon|</line>
+            <line character="fox">You like the taste of wheatgrass, huh? Not my personal favorite, but OK.</line>
+        </boarWon>
+        
+        <rabbitPreRepetition>
+            <line character="fox">Hi, Beulah!</line>
+            <line character="rabbit">|icon#rabbit_happy#icon|</line>
+        </rabbitPreRepetition>
+        
+        <rabbitIntro>
+            <!--(When the FOX encounters the RABBIT—keeper of the grass—the rabbit pays no attention to the FOX).-->
+            <line character="fox">Good morning, Beulah. Elvis is injured and I could really use your help.</line>
+            <!--(The RABBIT continues to not pay attention to the FOX.)-->
+            <line character="rabbit">|size#200#size|...|/size|</line>
+            <line character="fox">Hey, Beulah, Elvis is hurt. Can you help me find some wheatgrass to heal his wound?</line>
+            <!--(The RABBIT seems preoccupied with something else.)-->
+            <line character="rabbit">|size#200#size|...|/size|</line>
+            <line character="fox">(Maybe she’s busy with something. I’ll come back later.)</line>
+        </rabbitIntro>
+
+        <rabbitRepetition>
+            <line character="fox">Beulah, do you have the wheatgrass yet?</line>
+            <line character="rabbit">|size#200#size|...|/size|</line>
+            <line character="fox">(I guess I’ll come back later.)</line>
+        </rabbitRepetition>
+        
+        <rabbitEnd>
+            <!--(When the FOX returns after a little while, the RABBIT gives him the wheatgrass.)-->
+            <line character="rabbit">|i|gkfjdhgkjsfd|/i||icon#wheatgrass#icon| |i|fdgfd|/i|</line>
+            <line character="fox">Thanks, Beulah!</line>
+        </rabbitEnd>
+        
+        <rabbitEndRepetition>
+            <line character="fox">Hi, Beulah!</line>
+            <line character="rabbit">|size#200#size|...|/size|</line>
+        </rabbitEndRepetition>
+
+        <mooseNoReaction>
+            <line character="moose">...</line>
+        </mooseNoReaction>
+
+        <mooseSilentTalk choiceKey="mooseChoice">
+            <line character="fox">Hi.</line>
+        </mooseSilentTalk>
+        
+        <mooseEndRepetition>
+            <line character="moose">|icon#thumb_up#icon| |icon#hammer#icon| |icon#dam#icon|</line>
+            <line character="fox">You're working on the dam? Great!</line>
+        </mooseEndRepetition>
+        
+        <ending>
+            <line character="owl">Well done, Fox. Because of your help, the dam will be completed in no time.</line>
+            <line character="wolf">Our forest will be safe.</line>
+            <line character="fox">Well, I guess my work here is finished.</line>
+            <line character="flower">Hey Fox, can you help us flowers with—</line>
+            <line character="fox">Maybe tomorrow, pal, maybe tomorrow. I think I’m just going to take it easy for a little while.</line>
+            <line character="wolf">Yes, you deserve a break.</line>
+            <line character="owl">You’ve earned it... PLAYER_NAME.</line>
+        </ending>
+
+        <flowerWon>
+            <line character="flower">Don’t worry about it, PLAYER_NAME. You can help save the flowers tomorrow!</line>
+            <line character="fox">Thanks!</line>
+        </flowerWon>
+
+        <test>
+            <line character="1">test1</line>
+            <line character="2">test2</line>
+            <line character="3">test3</line>
+        </test>
+    </dialogues>
+
+    <animals>
+        <fox>Fox</fox>
+        <owl>Owl</owl>
+        <wolf>Wolf</wolf>
+    </animals>
+
+    <items>
+        <berry>Berry</berry>
+        <tree>Tree</tree>
+        <honey>Honey</honey>
+    </items>
+
+    <hints>
+        <move>Press |b|Arrow Keys|/b| to move.</move>
+        <moveTouch>|b|Drag|/b| to look around. |b|Tap|/b| to move!</moveTouch>
+        <jump>Press |b|spacebar|/b| to jump!</jump>
+        <jumpTouch>Tap with two fingers to jump!</jumpTouch>
+        <sootheTouch>Shake your device to soothe.</sootheTouch>
+        
+        <bear>|b|Charlene|/b| might be able to help. She lives near a giant red tree.</bear>
+        <day>Looks like it's almost dawn...</day>
+        <overload>If it's too intense, press F to howl.</overload>
+        <overloadTouch>If it's too intense, |b|shake|/b| to howl.</overloadTouch>
+        <bearFood>Looks like |b|Charlene|/b| wants something to eat.</bearFood>
+        <honey>Maybe I can find a honeycomb nearby.</honey>
+
+        <interact>Press |b|T|/b| to interact</interact>
+        <interactTouch>Try tapping</interactTouch>
+        <help>Press |b|H|/b| for help.</help>
+        
+        <fawn>The fawn’s parents must be nearby.</fawn>
+        <moose1>That's strange...maybe he's shy.</moose1>
+        <moose2>I guess he doesn't like talking. There must be something else I can try.</moose2>
+        <rabbit>Beulah's hopping around nearby. Maybe she can help find wheatgrass.</rabbit>
+        
+        <boarLocation>Take a look on the |b|other side of the river|/b|. The |b|boar|/b| lives |b|near a pond|/b| there and could help with the dam.</boarLocation>
+        <bearLocation>Check over by the |b|big red tree|/b| across the river. A big, strong bear lives there who can help.</bearLocation>
+    </hints>
+    
+    <ui>
+        <illegalName>Try another name...</illegalName>
+        <clickHint>Click on an animal's icon for more info.</clickHint>
+        <findAnimal>Gather all the animals to help save the forest.</findAnimal>
+        <intro>What's the wolf doing there? Try talking to him.</intro>
+        <owlDescription>The owl said |b|a flood is coming|/b|. Gather all the animals to help save the forest.</owlDescription>
+        <bearLocation>There might be someone who can help by the large red tree.</bearLocation>
+        <bearHint>The bear wants something to eat. Maybe there's a beehive with honey nearby.</bearHint>
+        <bearHintWhenHasHoney>Try giving this beehive to the bear.</bearHintWhenHasHoney>
+        <bearDescription>The bear is happy now after eating honey. She said she would help with the dam.</bearDescription>
+        
+        <boarLocation>Try looking around by the pond.</boarLocation>
+        <boarHint>The boar is hurt. Berries and honey are not hard to find. Maybe the rabbit can help find wheatgrass.</boarHint>
+        <boarHint0>The boar is injured.</boarHint0>
+        <boarHint1>Ingridents gathered so far: </boarHint1>
+        <boarHint2>Ingredients still needed: </boarHint2>
+        <boarHintRabbit>Maybe the rabbit can help find: </boarHintRabbit>
+        <boarHintFinished>That's everything that's needed to help the boar. Try giving him all the ingredients.</boarHintFinished>
+        <boarDescription>The boar is all better.</boarDescription>
+
+        <fawnLocation>It looks like there are some bright lights by the river at night.</fawnLocation>
+        <fawnHint>The stag and doe said the fawn was headed towards the river.</fawnHint>
+        <fawnDescription>The fawn is back with her parents now.</fawnDescription>
+
+        <mooseLocation>Try looking around the large rock formations for another friend.</mooseLocation>
+        <mooseHint>It looks like the moose doesn't like talking.</mooseHint>
+        <mooseDescription>The moose doesn't seem to talk, but he still wants to be friends.</mooseDescription>
+
+        <rabbitLocation>The rabbit typically hops around by the boar. Maybe she can help.</rabbitLocation>
+        <rabbitHint>Maybe the rabbit doesn't want to talk while working.</rabbitHint>
+        <rabbitDescription>The rabbit didn't talk about it, but she found the wheatgrass!</rabbitDescription>
+        
+        <!-- other keywords used -->
+        <!-- they shouldn't fall under UI but anyway... -->
+        <redTree>red tree</redTree>
+        <parents>parents</parents>
+    </ui>
+</translation>

@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2103686
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: 3a1c68c8292caf046bd21158886c5e40, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 875ee592908f99a4a90a529e5f95746e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2019389346, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: Animal asset
+  m_EditorClassIdentifier: 
+  hashCode: -1836805472
+  material: {fileID: 2103686}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 875ee592908f99a4a90a529e5f95746e, type: 3}
+  spriteInfoList:
+  - id: 11
+    x: 450.64
+    y: 7.59
+    width: 200
+    height: 200
+    xOffset: 0
+    yOffset: 160
+    xAdvance: 200
+    scale: 1.8
+    name: owl_face
+    hashCode: -1039908374
+    unicode: 128521
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 12
+    x: -4.2
+    y: 2.5
+    width: 220
+    height: 220
+    xOffset: 0
+    yOffset: 180
+    xAdvance: 220
+    scale: 1.8
+    name: fox_face
+    hashCode: -544687857
+    unicode: 128536
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 13
+    x: 221.7
+    y: -1.9
+    width: 220
+    height: 220
+    xOffset: 0
+    yOffset: 180
+    xAdvance: 220
+    scale: 1.8
+    name: bear_face
+    hashCode: 186261386
+    unicode: 129315
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 14
+    x: 671
+    y: 6.9
+    width: 220
+    height: 220
+    xOffset: 0
+    yOffset: 180
+    xAdvance: 220
+    scale: 1.8
+    name: doe_face
+    hashCode: -1450322320
+    unicode: 9786
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 15
+    x: 919.9
+    y: 1.93
+    width: 220
+    height: 220
+    xOffset: 0
+    yOffset: 180
+    xAdvance: 220
+    scale: 1.8
+    name: wolf_face
+    hashCode: -1594009588
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 5
+    x: 1151.2
+    y: 8
+    width: 220
+    height: 220
+    xOffset: 0
+    yOffset: 180
+    xAdvance: 220
+    scale: 1.8
+    name: rabbit_face
+    hashCode: -1592794096
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 6
+    x: 1377
+    y: -6
+    width: 240
+    height: 240
+    xOffset: 0
+    yOffset: 200
+    xAdvance: 250
+    scale: 1.8
+    name: stag_face
+    hashCode: -2051120545
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 7
+    x: 1608.78
+    y: -4
+    width: 220
+    height: 220
+    xOffset: 0
+    yOffset: 180
+    xAdvance: 220
+    scale: 1.8
+    name: boar_face
+    hashCode: 679331392
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 8
+    x: 664
+    y: 6.9
+    width: 220
+    height: 220
+    xOffset: 0
+    yOffset: 180
+    xAdvance: 220
+    scale: 1.8
+    name: fawn_face
+    hashCode: 25740800
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 9
+    x: 1380.6
+    y: 3.3
+    width: 240
+    height: 240
+    xOffset: 0
+    yOffset: 200
+    xAdvance: 250
+    scale: 1.8
+    name: moose_face
+    hashCode: 81030117
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 10
+    x: 1822.8
+    y: -9
+    width: 240
+    height: 240
+    xOffset: 0
+    yOffset: 200
+    xAdvance: 250
+    scale: 1.8
+    name: flower_face
+    hashCode: -230199205
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  fallbackSpriteAssets: []
+--- !u!21 &1369835458
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: 3a1c68c8292caf046bd21158886c5e40, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats: []
+    m_Colors: []

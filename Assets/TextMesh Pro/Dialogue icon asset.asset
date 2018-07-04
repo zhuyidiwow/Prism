@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2103686
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: 3a1c68c8292caf046bd21158886c5e40, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3acd635df9c55dd45b55d4c7d5b485df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2019389346, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: Dialogue icon asset
+  m_EditorClassIdentifier: 
+  hashCode: -1836805472
+  material: {fileID: 2103686}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 3acd635df9c55dd45b55d4c7d5b485df, type: 3}
+  spriteInfoList:
+  - id: 11
+    x: 520.73
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 115.6
+    xAdvance: 128
+    scale: 1
+    name: thumb_up
+    hashCode: 1369913660
+    unicode: 128521
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 12
+    x: 2.61
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 115.6
+    xAdvance: 128
+    scale: 1
+    name: bear_happy
+    hashCode: 1835215131
+    unicode: 128536
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 13
+    x: 138.84
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 115.6
+    xAdvance: 128
+    scale: 1
+    name: wheatgrass
+    hashCode: 222929019
+    unicode: 129315
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 14
+    x: 248.2
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 118.26
+    xAdvance: 128
+    scale: 1
+    name: honeycomb
+    hashCode: -643054922
+    unicode: 9786
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 15
+    x: 386.3
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 115.6
+    xAdvance: 128
+    scale: 1
+    name: firstaid
+    hashCode: -642342858
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 5
+    x: 639.1
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 115.6
+    xAdvance: 128
+    scale: 1
+    name: bear_sad
+    hashCode: -514951971
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 6
+    x: 774.3
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 115.6
+    xAdvance: 128
+    scale: 1
+    name: honey
+    hashCode: 119748661
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 7
+    x: 900
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 118.26
+    xAdvance: 128
+    scale: 1
+    name: berry
+    hashCode: 117596318
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 8
+    x: 1030.46
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 118.26
+    xAdvance: 128
+    scale: 1
+    name: hammer
+    hashCode: -336608930
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 9
+    x: 1171
+    y: 0
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 118.26
+    xAdvance: 128
+    scale: 1
+    name: dam
+    hashCode: 105800
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 10
+    x: 1329.6
+    y: 2
+    width: 120
+    height: 120
+    xOffset: 0
+    yOffset: 118.26
+    xAdvance: 120
+    scale: 1
+    name: boar_happy
+    hashCode: 950091409
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 11
+    x: 1462.87
+    y: -2
+    width: 128
+    height: 128
+    xOffset: 0
+    yOffset: 118.26
+    xAdvance: 128
+    scale: 1
+    name: rabbit_happy
+    hashCode: -1024839231
+    unicode: 9785
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  fallbackSpriteAssets: []
+--- !u!21 &1369835458
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: 3a1c68c8292caf046bd21158886c5e40, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats: []
+    m_Colors: []
