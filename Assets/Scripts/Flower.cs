@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Flower : MonoBehaviour {
 
@@ -8,11 +6,11 @@ public class Flower : MonoBehaviour {
 		GameManager.Instance.ShowInteractHint(name);
 	}
 
-	private void HideInteractHint() {
+	private static void HideInteractHint() {
 		GameManager.Instance.HideInteractHint();
 	}
 
-	private bool CanInteract() {
+	private static bool CanInteract() {
 		if (GameManager.IsInteracting) {
 			return false;
 		}

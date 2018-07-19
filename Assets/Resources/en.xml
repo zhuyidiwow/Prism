@@ -351,6 +351,7 @@
         <interact>Press |b|T|/b| to interact</interact>
         <interactTouch>Try tapping</interactTouch>
         <help>Press |b|H|/b| for help.</help>
+        <helpTouch>Tap the button at top right for help.</helpTouch>
         
         <fawn>The fawn’s parents must be nearby.</fawn>
         <moose1>That's strange...maybe he's shy.</moose1>

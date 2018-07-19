@@ -660,8 +660,13 @@ public class GameManager : MonoBehaviour {
         while (true) {
             yield return new WaitUntil(() =>
                 !hintPanel.activeSelf && !IsInteracting && Time.time - LastDialogueTime >= 60f && activeScenarios.Count < 4);
+#if (UNITY_IOS || UNITY_ANDROID)
+            ShowHint("helpTouch");
+#else
             ShowHint("help");
+#endif
             count++;
+            
             if (count > 6) {
                 break;
             }
