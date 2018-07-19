@@ -16,6 +16,8 @@ public class PostBuild {
             string targetGUID = project.TargetGuidByName(targetName);
 
             AddFrameworks(project, targetGUID);
+
+            File.WriteAllText(projectPath, project.WriteToString());
         }
     }
 
@@ -23,7 +25,7 @@ public class PostBuild {
         project.AddFrameworkToProject(targetGUID, "AdSupport.framework", false);
         project.AddFrameworkToProject(targetGUID, "CoreData.framework", false);
         project.AddFrameworkToProject(targetGUID, "SystemConfiguration.framework", false);
-//        project.AddFrameworkToProject(targetGUID, "libz.tbd", false);
-//        project.AddFrameworkToProject(targetGUID, "libsqlite3.tbd", false);
+        project.AddFrameworkToProject(targetGUID, "libz.tbd", false);
+        project.AddFrameworkToProject(targetGUID, "libsqlite3.tbd", false);
     }
 }
